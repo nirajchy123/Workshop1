@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    .container1 {
+  
+      background-color:#30bbb4;
+   
+      margin-top: 30px;
+      margin-bottom: 310px;
+      margin-left: 430px;
+      margin-right: 430px;
+      padding: 48px 10px;
+      width: 440px;
+      height: 690px;
+    }
+  </style>
+  <body>
+    <div class="class1" style="text-align: center;">
+
+        <h1>Herald College Kathmandu</h1>
+    </div>
+    <form action="/action_page.php">
+      <div class="container1">
+
+        <!-- Name element -->
+        <div>
+          <label for="Name"> Name :</label> <br />
+          <input type="text" placeholder="Enter your name" size="50" /> <br />
+          <br />
+        </div>
+        <!-- Email element -->
+        <div>
+          <label for="Email"> Email </label> <br />
+          <input type="email" placeholder=" Enter your email" size="50" />
+          <br />
+          <br />
+        </div>
+        <!-- age element -->
+        <div>
+          <label for="Age"> Age </label> <br />
+          <input type="text" placeholder=" Enter your age " size="50" />
+          <br />
+          <br />
+        </div>
+        <!-- option element -->  
+          <div> 
+          
+        <label for="select">Which option best describes you ? </label> <br />
+        <input list="browsers" name="browser" size="50" />
+        <datalist id="browsers">
+          <option value="Best student"></option>
+          <option value="Averge student"></option>
+          <option value="Execellent"></option>
+          <option value="Good"></option>
+          <option value="Week student"></option>
+        </datalist>
+        <br />
+        <br />
+      </div>
+
+      <!-- radio element -->
+      <div>
+        <label for="recommend">Would you recommend Herald College</label><br />
+        <input
+          type="radio"
+          id="Yes"
+          name="College"
+          value="Yes"
+          placeholder=" student"
+        />
+        <label for="Yes"> Yes </label> <br />
+        <input type="radio" id="No" name="College" value="No" />
+        <label for="No"> No </label> <br />
+        <input type="radio" id="Maybe" name="College" value="Maybe " />
+        <label for="Maybe"> Maybe </label> <br />
+
+        <br />
+      </div>
+      <!-- checkbox element -->
+      <div>
+        <label for="languages"
+          >Languages and Framework known(check all languages)</label
+        >
+        <br />
+        <input type="checkbox" />C<br />
+        <input type="checkbox" />C++<br />
+        <input type="checkbox" />C#<br />
+        <input type="checkbox" />Java<br />
+        <input type="checkbox" />Python<br />
+        <input type="checkbox" />Javascript<br />
+        <input type="checkbox" />React<br />
+        <input type="checkbox" />Anuglar<br />
+        <input type="checkbox" />Django<br />
+        <input type="checkbox" />Spring<br />
+
+        <br />
+      </div>
+
+      <div>
+        <label for="comment">Any Comments and Suggestions</label><br />
+        <textarea name="...." id="" cols="50" rows="3"></textarea>
+      </div>
+      <div>
+        <br />
+        <button
+          type="Submit"
+          style="background-color: #20e4da; width: 392px; height: 30px"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
